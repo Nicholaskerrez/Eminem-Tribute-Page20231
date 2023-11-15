@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* NAVIGATION */
+
+nav {
+    height: 100px;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 12px;
+    position: sticky;
+}
+
+.personal__logo {
+    font-size: 24px;
+    color: black;
+    position: sticky;
+
+}
+
+.nav__links {
+    display: flex;
+    list-style-type: none ;
+}
+
+.nav__link {
+    color: black;
+    padding: 12px 24px;
+    margin: 6px;
+    text-decoration: none ;
+}
+
+.nav__link:hover {
+    background-color: black;
+    color: white;
+    border-radius: 6px;
+}
+
+.nav__link:active {
+    color: rgb(199, 5, 5);
+}
+
+
+.elink {
+    color: black;
+    text-decoration: none;
+}
+
+.elink:hover {
+    color: rgba(0, 0, 0, 0.829);
+}
+
+.black-line {
+    color: black;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.eminem__banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 0;
+    width: 100%;
+    flex-direction: column;
+}
+
+.banner {
+    max-width: 1000px;
+    width: 100%;
+    display: flex;
+    border-radius: 6px;
+}
+
+
+
+.eminem__banner--desc {
+    padding: 12px 0;
+    max-width: 1000px;
+    font-size: 18px;
+}
+
+/* MAIN */
+
+.container {
+    display: flex;
+    padding: 12px 0;
+    max-width: 1000px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    z-index: 1;
+}
+
+.about__container {
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* NAVIGATION */
+
+nav {
+    height: 100px;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 12px;
+    position: sticky;
+}
+
+.personal__logo {
+    font-size: 24px;
+    color: black;
+    position: sticky;
+
+}
+
+.nav__links {
+    display: flex;
+    list-style-type: none ;
+}
+
+.nav__link {
+    color: black;
+    padding: 12px 24px;
+    margin: 6px;
+    text-decoration: none ;
+}
+
+.nav__link:hover {
+    background-color: black;
+    color: white;
+    border-radius: 6px;
+}
+
+.nav__link:active {
+    color: rgb(199, 5, 5);
+}
+
+.elink {
+    color: black;
+    text-decoration: none;
+}
+
+.elink:hover {
+    color: rgba(0, 0, 0, 0.829);
+}
+
+.black-line {
+    color: black;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.eminem__banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 0;
+    width: 100%;
+    flex-direction: column;
+}
+
+.banner {
+    max-width: 1000px;
+    width: 100%;
+    display: flex;
+    border-radius: 6px;
+}
+
+.eminem__banner--desc {
+    padding: 12px 0;
+    max-width: 1000px;
+    font-size: 18px;
+}
+
+/* MAIN */
+
+.container {
+    display: flex;
+    padding: 12px 0;
+    max-width: 1000px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.about__container {
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+}
+
+.about-eminem {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.eminem__container {
+   display:flex;
+   flex-direction: row;
+   
+}
+
+.header {
+    color: black;
+    font-size: 24px;
+    padding: 12px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+
+.desc {
+    font-size: 16px;
+    border: 1px solid black;
+    padding: 12px;
+}
+
+.timeline-eminem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.timeline__container {
+    max-width: 500px;
+    flex-direction: column;
+    display: flex;
+
+}
+
+.eminem__tribute {
+    display: flex;
+    
+}
